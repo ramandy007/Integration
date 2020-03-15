@@ -1,0 +1,40 @@
+.home {
+  height: auto;
+  width: auto;
+  background-color: #08d9d6;
+}
+.flex-div {
+  display: flex;
+  text-align: center;
+}
+
+h1 {
+  border-bottom-style: solid;
+  border-bottom-color: #c0c0c0;
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    word-wrap: break-word;
+    background-color: aqua;
+  }
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  word-wrap: break-word;
+}
+
+.instructions {
+  padding-bottom: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: "Baloo Tamma 2", cursive;
+  color: #c0c0c0;
+  background-color: #252a34;
+}
